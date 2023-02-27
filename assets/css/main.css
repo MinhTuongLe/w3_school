@@ -159,6 +159,10 @@ h2 {
     padding-bottom: 12px;
 }
 
+.heading__advertisement:hover {
+    color: #059862;
+}
+
 /* Header */
 .header {
     display: flex;
@@ -392,6 +396,7 @@ h2 {
     list-style: none;
     border-bottom: solid 1px #fff;
     cursor: pointer;
+    display: block;
 }
 
 .dark-mode__item:hover {
@@ -463,6 +468,14 @@ h2 {
 
 .lesson-list-scroll {
     max-height: calc(81% + 80px);
+}
+
+.dark-mode__scroll-bar::-webkit-scrollbar {
+    background-color: #15202b;
+}
+
+.dark-mode__scroll-bar::-webkit-scrollbar-thumb {
+    background-color: #404e59;
 }
 
 .lesson-content {
@@ -643,7 +656,7 @@ h2 {
 }
 
 .content-item__9-exercise__link a:hover {
-    color: #059862;
+    color: #059862 !important;
 }
 
 .content-item__9-exercise--red {
@@ -653,6 +666,11 @@ h2 {
     padding: 0 4px;
     font-family: Consolas, Menlo, "courier new", monospace;
     ;
+}
+
+.content-item__9-exercise--red--dark-mode {
+    color: #ff9999 !important;
+    background-color: #2a343e !important;
 }
 
 .content-item__9-exercise__input input {
@@ -926,6 +944,18 @@ h2 {
     display: none;
 }
 
+.sub-menu--1::-webkit-scrollbar,
+.sub-menu--2::-webkit-scrollbar,
+.sub-menu--3::-webkit-scrollbar   {
+    background-color: #555555 !important;
+}
+
+.sub-menu--1::-webkit-scrollbar-thumb,
+.sub-menu--2::-webkit-scrollbar-thumb,
+.sub-menu--3::-webkit-scrollbar-thumb {
+    background-color: #999999 !important;
+}
+
 .sub-menu__heading {
     height: 42px;
     width: 100vw;
@@ -1034,3 +1064,77 @@ h2 {
 }
 
 
+
+
+/* Test */
+/* .content {
+    background-color: #1d2a35 ;
+    color: #dddddd ;
+}
+
+.content-item__2,
+.content-item__7 {
+    background-color: #193d3d;
+}
+
+
+.content-item__3-example {
+    background-color: #38444d;
+}
+
+
+.content-item__5-example {
+    background-color: #fff4a3;
+    color: #1d2a35;
+}
+
+.content-item__6 .content__line span,
+.content-item__6-item .content__line a
+ {
+    color: #dddddd;
+}
+
+.content-item__9-exercise,
+.content-item__9-exercise__input {
+    background-color: #38444d;
+}
+
+.content-item__9-exercise__content,
+.content-item__9-exercise__content a {
+    background-color: #15202b;
+    color: #dddddd;
+}
+
+.content-item__9-exercise--red {
+    background-color: #38444d;
+    color: #ff9996 !important;
+}
+
+
+
+.footer__btn {
+    border: 1px solid #dddddd;
+}
+
+.footer__courses-list,
+.footer__course a,
+.footer__information,
+.footer__description,
+.footer__copyright,
+.footer__icon,
+.content-item__3,
+.content-item__3-example-content,
+.footer__btns {
+    background-color: #1d2a35;
+}
+
+.footer__course-title,
+.footer__course a
+ {
+    color: #dddddd;
+}
+
+
+.border--bottom, .border--right, .border--top {
+    border-color: #d9d9d941;
+} */
