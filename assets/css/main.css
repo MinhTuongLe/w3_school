@@ -827,6 +827,10 @@ h2 {
     cursor: pointer;
 }
 
+.footer__btn-border {
+    border: 1px solid #ddd;
+}
+
 .footer__btn:hover {
     background-color: #059862;
     color: white;

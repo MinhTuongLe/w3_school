@@ -61,7 +61,7 @@ var getContentItem9ExerciseInputs = document.querySelectorAll('.content-item__9-
 var getContentItem9ExerciseContent = document.querySelector('.content-item__9-exercise__content')
 var getContentItem9ExerciseContentA = document.querySelector('.content-item__9-exercise__content a ')
 var getContentItem9ExerciseReds = document.querySelectorAll('.content-item__9-exercise--red')
-var getFooterBtn = document.querySelector('.footer__btn')
+var getFooterBtn = document.querySelectorAll('.footer__btn')
 var getFooterCourseList = document.querySelector('.footer__courses-list')
 var getFooterCourseAs = document.querySelectorAll('.footer__course a')
 var getFooterInformation = document.querySelector('.footer__information')
@@ -135,7 +135,10 @@ function showOrHideDarkMode() {
         })
 
 
-        getFooterBtn.style.borderColor = "#ddd"
+        getFooterBtn.forEach(function(item){
+            item.classList.add('footer__btn-border')
+        })
+
         getFooterCourseList.style.backgroundColor = "#1d2a35"
         getFooterInformation.style.backgroundColor = "#1d2a35"
         getFooterDescription.style.backgroundColor = "#1d2a35"
@@ -225,7 +228,10 @@ function showOrHideDarkMode() {
             item.classList.remove('content-item__9-exercise--red--dark-mode')
         })
 
-        getFooterBtn.style.borderColor = ""
+        getFooterBtn.forEach(function(item){
+            item.classList.remove('footer__btn-border')
+        })
+
         getFooterCourseList.style.backgroundColor = ""
         getFooterInformation.style.backgroundColor = ""
         getFooterDescription.style.backgroundColor = ""
