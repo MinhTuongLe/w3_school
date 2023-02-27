@@ -257,18 +257,19 @@
             </div>
             <ul class="header__options">
                 <li class="header__options-item">Tutorials
-                    <i class="fa-solid fa-sort-down header__options-item-icon"></i>
+                    <i class="fa-solid fa-sort-down header__options-item-icon--1"></i>
                 </li>
                 <li class="header__options-item">References
-                    <i class="fa-solid fa-sort-down header__options-item-icon"></i>
+                    <i class="fa-solid fa-sort-down header__options-item-icon--2"></i>
                 </li>
                 <li class="header__options-item">Exercises
-                    <i class="fa-solid fa-sort-down header__options-item-icon"></i>
+                    <i class="fa-solid fa-sort-down header__options-item-icon--3"></i>
                 </li>
                 <li class="header__options-item">Spaces</li>
                 <li class="header__options-item">Bootcamp</li>
             </ul>
         </div>
+        <!-- now task -->
         <div class="header__right">
             <ul class="header__choices">
                 <li class="header__choices-item">Pro</li>
@@ -748,10 +749,10 @@
         </div>
     </div>
 
-    <div class="sub-menu">
+    <div class="sub-menu--1">
         <div class="sub-menu__heading">
             Tutorials
-            <div class="sub-menu__heading-icon">
+            <div class="sub-menu__heading-icon--1">
                 <i class="fa-solid fa-x"></i>
             </div>
         </div>
@@ -856,6 +857,214 @@
                     <li class="sub-menu__content-item__list-item">Learn XSLT</li>
                     <li class="sub-menu__content-item__list-item">Learn XPath</li>
                     <li class="sub-menu__content-item__list-item">Learn XQuery</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="sub-menu--2">
+        <div class="sub-menu__heading">
+            References
+            <div class="sub-menu__heading-icon--2">
+                <i class="fa-solid fa-x"></i>
+            </div>
+        </div>
+        <div class=" sub-menu__content grid wide">
+            <div class="col c-3 sub-menu__content-item">
+                <div class="sub-menu__content-item__heading">HTML</div>
+                <ul class="sub-menu__content-item__list">
+                    <li class="sub-menu__content-item__list-item">HTML Tag Reference</li>
+                    <li class="sub-menu__content-item__list-item">HTML Browser Support</li>
+                    <li class="sub-menu__content-item__list-item">HTML Event Reference</li>
+                    <li class="sub-menu__content-item__list-item">HTML Color Reference</li>
+                    <li class="sub-menu__content-item__list-item">HTML Attribute Reference</li>
+                    <li class="sub-menu__content-item__list-item">HTML Canvas Reference</li>
+                    <li class="sub-menu__content-item__list-item">HTML SVG Reference</li>
+                    <li class="sub-menu__content-item__list-item">Google Maps Reference</li>
+                </ul>
+                <div class="sub-menu__content-item__heading">CSS</div>
+                <ul class="sub-menu__content-item__list">
+                    <li class="sub-menu__content-item__list-item">CSS Reference</li>
+                    <li class="sub-menu__content-item__list-item">CSS Browser Support</li>
+                    <li class="sub-menu__content-item__list-item">CSS Selector Reference</li>
+                    <li class="sub-menu__content-item__list-item">Bootstrap 3 Reference</li>
+                    <li class="sub-menu__content-item__list-item">Bootstrap 4 Reference</li>
+                    <li class="sub-menu__content-item__list-item">W3.CSS Reference</li>
+                    <li class="sub-menu__content-item__list-item">Icon Reference</li>
+                    <li class="sub-menu__content-item__list-item">Sass Reference</li>
+                </ul>
+            </div>
+            <div class="col c-3 sub-menu__content-item">
+                <div class="sub-menu__content-item__heading">Javascript</div>
+                <ul class="sub-menu__content-item__list">
+                    <li class="sub-menu__content-item__list-item">Javascript Reference</li>
+                    <li class="sub-menu__content-item__list-item">HTML DOM Reference</li>
+                    <li class="sub-menu__content-item__list-item">jQuery Reference</li>
+                    <li class="sub-menu__content-item__list-item">AngularJS Reference</li>
+                    <li class="sub-menu__content-item__list-item">AppML Reference</li>
+                    <li class="sub-menu__content-item__list-item">W3.JS Reference</li>
+                </ul>
+                <div class="sub-menu__content-item__heading">Programming</div>
+                <ul class="sub-menu__content-item__list">
+                    <li class="sub-menu__content-item__list-item">Python Reference</li>
+                    <li class="sub-menu__content-item__list-item">Java Reference</li>
+                </ul>
+            </div>
+
+            <div class="col c-3 sub-menu__content-item">
+                <div class="sub-menu__content-item__heading">Server Side</div>
+                <ul class="sub-menu__content-item__list">
+                    <li class="sub-menu__content-item__list-item">SQL Reference</li>
+                    <li class="sub-menu__content-item__list-item">MySQL Reference</li>
+                    <li class="sub-menu__content-item__list-item">PHP Reference</li>
+                    <li class="sub-menu__content-item__list-item">ASP Reference</li>
+                </ul>
+                <div class="sub-menu__content-item__heading">XML</div>
+                <ul class="sub-menu__content-item__list">
+                    <li class="sub-menu__content-item__list-item">XML DOM Reference</li>
+                    <li class="sub-menu__content-item__list-item">XML Http Reference</li>
+                    <li class="sub-menu__content-item__list-item">XSLT Reference</li>
+                    <li class="sub-menu__content-item__list-item">XML Schema Reference</li>
+                </ul>
+            </div>
+            <div class="col c-3 sub-menu__content-item">
+                <div class="sub-menu__content-item__heading">Character Sets</div>
+                <ul class="sub-menu__content-item__list">
+                    <li class="sub-menu__content-item__list-item">HTML Character Sets</li>
+                    <li class="sub-menu__content-item__list-item">HTML ASCII</li>
+                    <li class="sub-menu__content-item__list-item">HTML ANSI</li>
+                    <li class="sub-menu__content-item__list-item">HTML Windows-1252</li>
+                    <li class="sub-menu__content-item__list-item">HTML ISO-8859-1</li>
+                    <li class="sub-menu__content-item__list-item">HTML Symbols</li>
+                    <li class="sub-menu__content-item__list-item">HTML UTF-8</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="sub-menu--3">
+        <div class="sub-menu__heading">
+            Exercises and Quizzes
+            <div class="sub-menu__heading-icon--3">
+                <i class="fa-solid fa-x"></i>
+            </div>
+        </div>
+        <div class=" sub-menu__content grid wide">
+            <div class="col c-3 sub-menu__content-item">
+                <div class="sub-menu__content-item__heading sub-menu__content-item__heading--3">Exercises</div>
+                <ul class="sub-menu__content-item__list">
+                    <li class="sub-menu__content-item__list-item">HTML Exercises</li>
+                    <li class="sub-menu__content-item__list-item">CSS Exercises</li>
+                    <li class="sub-menu__content-item__list-item">JavaScript Exercises</li>
+                    <li class="sub-menu__content-item__list-item">Python Exercises</li>
+                    <li class="sub-menu__content-item__list-item">SQL Exercises</li>
+                    <li class="sub-menu__content-item__list-item">PHP Exercises</li>
+                    <li class="sub-menu__content-item__list-item">Java Exercises</li>
+                    <li class="sub-menu__content-item__list-item">C Exercises</li>
+                    <li class="sub-menu__content-item__list-item">C++ Exercises</li>
+                    <li class="sub-menu__content-item__list-item">C# Exercises</li>
+                    <li class="sub-menu__content-item__list-item">jQuery Exercises</li>
+                    <li class="sub-menu__content-item__list-item">React.js Exercises</li>
+                    <li class="sub-menu__content-item__list-item">MySQL Exercises</li>
+                    <li class="sub-menu__content-item__list-item">Bootstrap 5 Exercises</li>
+                    <li class="sub-menu__content-item__list-item">Bootstrap 4 Exercises</li>
+                    <li class="sub-menu__content-item__list-item">Bootstrap 3 Exercises</li>
+                    <li class="sub-menu__content-item__list-item">Numpy Exercises</li>
+                    <li class="sub-menu__content-item__list-item">Pandas Exercises</li>
+                    <li class="sub-menu__content-item__list-item">SciPy Exercises</li>
+                    <li class="sub-menu__content-item__list-item">TypeScript Exercises</li>
+                    <li class="sub-menu__content-item__list-item">Excel Exercises</li>
+                    <li class="sub-menu__content-item__list-item">R Exercises</li>
+                    <li class="sub-menu__content-item__list-item">Git Exercises</li>
+                    <li class="sub-menu__content-item__list-item">Kotlin Exercises</li>
+                    <li class="sub-menu__content-item__list-item">Go Exercises</li>
+                    <li class="sub-menu__content-item__list-item">MongoDB Exercises</li>
+                </ul>
+            </div>
+            <div class="col c-3 sub-menu__content-item">
+                <div class="sub-menu__content-item__heading sub-menu__content-item__heading--3">Quizzes</div>
+                <ul class="sub-menu__content-item__list">
+                    <li class="sub-menu__content-item__list-item">HTML Quiz</li>
+                    <li class="sub-menu__content-item__list-item">CSS Quiz</li>
+                    <li class="sub-menu__content-item__list-item">JavaScript Quiz</li>
+                    <li class="sub-menu__content-item__list-item">Python Quiz</li>
+                    <li class="sub-menu__content-item__list-item">SQL Quiz</li>
+                    <li class="sub-menu__content-item__list-item">PHP Quiz</li>
+                    <li class="sub-menu__content-item__list-item">Java Quiz</li>
+                    <li class="sub-menu__content-item__list-item">C Quiz</li>
+                    <li class="sub-menu__content-item__list-item">C++ Quiz</li>
+                    <li class="sub-menu__content-item__list-item">C# Quiz</li>
+                    <li class="sub-menu__content-item__list-item">jQuery Quiz</li>
+                    <li class="sub-menu__content-item__list-item">React.js Quiz</li>
+                    <li class="sub-menu__content-item__list-item">MySQL Quiz</li>
+                    <li class="sub-menu__content-item__list-item">Bootstrap 5 Quiz</li>
+                    <li class="sub-menu__content-item__list-item">Bootstrap 4 Quiz</li>
+                    <li class="sub-menu__content-item__list-item">Bootstrap 3 Quiz</li>
+                    <li class="sub-menu__content-item__list-item">Numpy Quiz</li>
+                    <li class="sub-menu__content-item__list-item">Pandas Quiz</li>
+                    <li class="sub-menu__content-item__list-item">SciPy Quiz</li>
+                    <li class="sub-menu__content-item__list-item">TypeScript Quiz</li>
+                    <li class="sub-menu__content-item__list-item">XML Quiz</li>
+                    <li class="sub-menu__content-item__list-item">R Quiz</li>
+                    <li class="sub-menu__content-item__list-item">Git Quiz</li>
+                    <li class="sub-menu__content-item__list-item">Kotlin Quiz</li>
+                    <li class="sub-menu__content-item__list-item">Cyber Security Quiz</li>
+                    <li class="sub-menu__content-item__list-item">Accessibility Quiz</li>
+                </ul>
+            </div>
+
+            <div class="col c-3 sub-menu__content-item">
+                <div class="sub-menu__content-item__heading sub-menu__content-item__heading--3">Courses</div>
+                <ul class="sub-menu__content-item__list">
+                    <li class="sub-menu__content-item__list-item">HTML Course</li>
+                    <li class="sub-menu__content-item__list-item">CSS Course</li>
+                    <li class="sub-menu__content-item__list-item">JavaScript Course</li>
+                    <li class="sub-menu__content-item__list-item">Front End Course</li>
+                    <li class="sub-menu__content-item__list-item">Python Course</li>
+                    <li class="sub-menu__content-item__list-item">SQL Course</li>
+                    <li class="sub-menu__content-item__list-item">PHP Course</li>
+                    <li class="sub-menu__content-item__list-item">Java Course</li>
+                    <li class="sub-menu__content-item__list-item">C++ Course</li>
+                    <li class="sub-menu__content-item__list-item">C# Course</li>
+                    <li class="sub-menu__content-item__list-item">jQuery Course</li>
+                    <li class="sub-menu__content-item__list-item">React.js Course</li>
+                    <li class="sub-menu__content-item__list-item">Bootstrap 4 Course</li>
+                    <li class="sub-menu__content-item__list-item">Bootstrap 3 Course</li>
+                    <li class="sub-menu__content-item__list-item">Numpy Course</li>
+                    <li class="sub-menu__content-item__list-item">Pandas Course</li>
+                    <li class="sub-menu__content-item__list-item">TypeScript Course</li>
+                    <li class="sub-menu__content-item__list-item">XML Course</li>
+                    <li class="sub-menu__content-item__list-item">R Course</li>
+                    <li class="sub-menu__content-item__list-item">Data Analytics Course</li>
+                    <li class="sub-menu__content-item__list-item">Cyber Security Course</li>
+                    <li class="sub-menu__content-item__list-item">Accessibility Course</li>
+                </ul>
+            </div>
+            <div class="col c-3 sub-menu__content-item">
+                <div class="sub-menu__content-item__heading sub-menu__content-item__heading--3">Certificates</div>
+                <ul class="sub-menu__content-item__list">
+                    <li class="sub-menu__content-item__list-item">HTML Certificate</li>
+                    <li class="sub-menu__content-item__list-item">CSS Certificate</li>
+                    <li class="sub-menu__content-item__list-item">JavaScript Certificate</li>
+                    <li class="sub-menu__content-item__list-item">Front End Certificate</li>
+                    <li class="sub-menu__content-item__list-item">Python Certificate</li>
+                    <li class="sub-menu__content-item__list-item">SQL Certificate</li>
+                    <li class="sub-menu__content-item__list-item">PHP Certificate</li>
+                    <li class="sub-menu__content-item__list-item">Java Certificate</li>
+                    <li class="sub-menu__content-item__list-item">C++ Certificate</li>
+                    <li class="sub-menu__content-item__list-item">C# Certificate</li>
+                    <li class="sub-menu__content-item__list-item">jQuery Certificate</li>
+                    <li class="sub-menu__content-item__list-item">React.js Certificate</li>
+                    <li class="sub-menu__content-item__list-item">MySQL Certificate</li>
+                    <li class="sub-menu__content-item__list-item">Bootstrap 5 Certificate</li>
+                    <li class="sub-menu__content-item__list-item">Bootstrap 4 Certificate</li>
+                    <li class="sub-menu__content-item__list-item">Bootstrap 3 Certificate</li>
+                    <li class="sub-menu__content-item__list-item">TypeScript Certificate</li>
+                    <li class="sub-menu__content-item__list-item">XML Certificate</li>
+                    <li class="sub-menu__content-item__list-item">Excel Certificate</li>
+                    <li class="sub-menu__content-item__list-item">Data Science Certificate</li>
+                    <li class="sub-menu__content-item__list-item">Cyber Security Certificate</li>
+                    <li class="sub-menu__content-item__list-item">Accessibility Certificate</li>
                 </ul>
             </div>
         </div>
